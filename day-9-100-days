@@ -1,0 +1,16 @@
+https://replit.com/@SSY1975/day-9-100-days?v=1
+
+print("What generation are you a part of?")
+birthYear = int(input("What year were you born? "))
+if birthYear >= 1925 and birthYear <= 1946:
+  print("Hello, you are a part of the traditionalist Generation! 👌")
+elif birthYear >=1947 and birthYear <= 1964:
+  print("Welcome, Baby Boomer! 😊")
+elif birthYear >=1965 and birthYear <=1981:
+  print("You are an amazing Generation X! 🥰")
+elif birthYear >=1982 and birthYear <=1995:
+  print("We have a fancy Millenial! Well done! 👍🏼")
+elif birthYear >= 1996 and birthYear <=2015:
+  print("We got ourselves a Generation Z! Fantastic ❤️")
+else:
+  print("I'm sorry! You aren't a part of this study! Maybe next time. Thanks for offering your help! 😔")
